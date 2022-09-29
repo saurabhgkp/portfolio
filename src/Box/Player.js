@@ -5,8 +5,8 @@ import { FPVControls } from "./FPVControls";
 import { useKeyboardControls } from "../hooks/useKeybord";
 import { Vector3 } from "three";
 
-const SPEED = 7;
-const JUMP = 4;
+const SPEED = 5;
+const JUMP = 5;
 
 export const Player = (props) => {
   const { camera } = useThree();

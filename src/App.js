@@ -11,13 +11,11 @@ import Education from "./components/Education";
 
 import Inst from "./components/Inst";
 import Rainbow from "./components/Rainbow";
-
 export default function App() {
   return (
     <Canvas>
       <Stars />
       <ambientLight intensity={0.5} />
-
       <Physics>
         <Inst />
         <About />
@@ -25,8 +23,7 @@ export default function App() {
         <Project />
         <Rainbow />
         <PlaneOne />
-
-        <Player position={[0, 2, -50]} />
+        <Player position={[0, 2, -30]} />
       </Physics>
     </Canvas>
   );

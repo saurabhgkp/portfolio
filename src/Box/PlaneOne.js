@@ -1,6 +1,6 @@
 import { usePlane } from "@react-three/cannon";
 import React, { useMemo } from "react";
-import { TextureLoader, RepeatWrapping } from "three";
+import { TextureLoader, RepeatWrapping, Group } from "three";
 import grass from "../grass.jpg";
 
 function PlaneOne() {
@@ -16,19 +16,34 @@ function PlaneOne() {
     rotation: [-Math.PI / 2, 0, 0],
   }));
   return (
-    <mesh ref={ref} rotation={[-Math.PI / 2, 0, 0]}>
-      <planeBufferGeometry attach="geometry" args={[3, 100]} />
+    <>
+      <mesh ref={ref}>
+        <planeBufferGeometry attach="geometry" args={[3, 60]} />
 
-      <meshLambertMaterial
-        attach="material"
-        //   map={texture}
-        color="#000000"
-        transparent
-        opacity={0.4}
-        roughness={1}
-        metalness={0}
-      />
-    </mesh>
+        <meshLambertMaterial
+          attach="material"
+          //   map={texture}
+          color="#000000"
+          transparent
+          opacity={0.4}
+          roughness={1}
+          metalness={0}
+        />
+      </mesh>
+      <mesh rotation={[-Math.PI / 2, 0, 1.6]}>
+        <planeBufferGeometry attach="geometry" args={[3, 60]} />
+
+        <meshLambertMaterial
+          attach="material"
+          //   map={texture}
+          color="#000000"
+          transparent
+          opacity={0.4}
+          roughness={1}
+          metalness={0}
+        />
+      </mesh>
+    </>
   );
 }
 export default PlaneOne;

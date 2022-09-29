@@ -5,8 +5,8 @@ import "./Rainbow.css";
 
 const Rainbow = () => {
   const [ref] = useBox(() => ({
-    //mass: 1,
-    position: [0, 2, 25],
+    // mass: 1,
+    position: [0, 3, 0],
   }));
   return (
     <>
