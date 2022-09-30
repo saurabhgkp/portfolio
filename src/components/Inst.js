@@ -12,7 +12,7 @@ const Inst = () => {
     <>
       <mesh ref={ref}>
         <Html scale={1} rotation={[Math.PI / 8, 0, 0]} transform occlude>
-          <div class="container">
+          <div class="container the-neon-sign">
             <h1 class="neonText">
               Not For Mobile <span style={{ fontSize: "1.5em" }}>🥲 </span>
             </h1>

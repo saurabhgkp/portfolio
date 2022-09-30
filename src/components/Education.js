@@ -13,17 +13,24 @@ const Education = () => {
       <mesh ref={ref}>
         <Html scale={1} rotation={[Math.PI / 1, 4.6, 3.1]} transform occlude>
           {/* Saurabh Singh <span style={{ fontSize: '1.5em' }}>🥲💻📜 </span> */}
-          <h3 className="headTitle"> EDUCATION 🎓</h3>
-          <br />
-          <h3>Masters of Computer Application</h3>
-          <p> Institute of Engineering & Technology, Lucknow Utter- Pradesh</p>
-
-          <p>2017 - 2021 </p>
-          <br />
-          <h3>Bachelors of Science •May 2017 </h3>
-          <p> Dr. Rammanohar Lohia Avadh University”, Ayodhya Uttar-Pradesh.</p>
-          <p>2014 - 2017 </p>
-          <br />
+          <div className="the-neon-sign">
+            <h3 className="headTitle"> EDUCATION 🎓</h3>
+            <br />
+            <h3>Masters of Computer Application</h3>
+            <p>
+              {" "}
+              Institute of Engineering & Technology, Lucknow Utter- Pradesh
+            </p>
+            <p>2017 - 2021 </p>
+            <br />
+            <h3>Bachelors of Science •May 2017 </h3>
+            <p>
+              {" "}
+              Dr. Rammanohar Lohia Avadh University”, Ayodhya Uttar-Pradesh.
+            </p>
+            <p>2014 - 2017 </p>
+            <br />{" "}
+          </div>
         </Html>
 
         <meshLambertMaterial
