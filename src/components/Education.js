@@ -6,25 +6,24 @@ import "./Texts.css";
 const Education = () => {
   const [ref] = useBox(() => ({
     //mass: 1,
-    position: [8, 2, -15],
+    position: [8, 3, -15],
   }));
   return (
     <>
       <mesh ref={ref}>
         <Html scale={1} rotation={[Math.PI / 1, 4.6, 3.1]} transform occlude>
-          {/* Saurabh Singh <span style={{ fontSize: '1.5em' }}>🥲 </span> */}
+          {/* Saurabh Singh <span style={{ fontSize: '1.5em' }}>🥲💻📜 </span> */}
+          <h3 className="headTitle"> EDUCATION 🎓</h3>
+          <br />
+          <h3>Masters of Computer Application</h3>
+          <p> Institute of Engineering & Technology, Lucknow Utter- Pradesh</p>
 
-          <h4> EDUCATION</h4>
-          <h3>
-            Institute of Engineering & Technology, Lucknow Uttar-Pradesh.
-            <br />
-            Masters of Computer Application •May 2020
-            <br />
-            <br />
-            Dr. Rammanohar Lohia Avadh University”, Ayodhya Uttar-Pradesh.
-            <br />
-            Bachelors of Science •May 2017
-          </h3>
+          <p>2017 - 2021 </p>
+          <br />
+          <h3>Bachelors of Science •May 2017 </h3>
+          <p> Dr. Rammanohar Lohia Avadh University”, Ayodhya Uttar-Pradesh.</p>
+          <p>2014 - 2017 </p>
+          <br />
         </Html>
 
         <meshLambertMaterial

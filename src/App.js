@@ -11,6 +11,9 @@ import Education from "./components/Education";
 
 import Inst from "./components/Inst";
 import Rainbow from "./components/Rainbow";
+import Certification from "./components/Certification";
+import Skill from "./components/Skill";
+import ContactMe from "./components/ContactMe";
 export default function App() {
   return (
     <Canvas>
@@ -21,7 +24,10 @@ export default function App() {
         <About />
         <Education />
         <Project />
-        <Rainbow />
+        {/* <Rainbow /> */}
+        <Certification />
+        <Skill />
+        <ContactMe />
         <PlaneOne />
         <Player position={[0, 2, -30]} />
       </Physics>
