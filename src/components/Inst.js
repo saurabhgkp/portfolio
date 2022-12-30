@@ -2,7 +2,7 @@ import React from "react";
 import { useBox } from "@react-three/cannon";
 import { Html } from "@react-three/drei";
 import "./Instruction.css";
-
+import "./Texts.css";
 const Inst = () => {
   const [ref] = useBox(() => ({
     //mass: 1,

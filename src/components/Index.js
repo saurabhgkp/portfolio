@@ -107,11 +107,8 @@ const Inst = () => {
           transform
           occlude
         >
-          <div class="container spandiv ">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+          <div class="the-neon-sign">
+
             <h1 class="neonText focuss">Not For Mobile</h1>
             <h2 class="neonText focuss">
               Click On Screen And turn around exit Screen press Esc
