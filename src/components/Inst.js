@@ -11,13 +11,23 @@ const Inst = () => {
   return (
     <>
       <mesh ref={ref}>
-        <Html scale={1} rotation={[Math.PI / 8, 0, 0]} transform occlude>
-          <div class="container the-neon-sign">
-            <h1 class="neonText">
-              Not For Mobile <span style={{ fontSize: "1.5em" }}>🥲 </span>
-            </h1>
-            <h2 class="neonText">Click On Screen And turn around</h2>
-            <h2 class="neonText">
+        <Html
+          scale={1}
+          rotation={[Math.PI / 8, 0, 0]}
+          className="login-box"
+          transform
+          occlude
+        >
+          <div class="container spandiv ">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <h1 class="neonText focuss">Not For Mobile</h1>
+            <h2 class="neonText focuss">
+              Click On Screen And turn around exit Screen press Esc
+            </h2>
+            <h2 class="neonText focuss">
               Movement Using W S A D & Space(Jump) Button
             </h2>
           </div>

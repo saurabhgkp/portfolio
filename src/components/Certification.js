@@ -13,32 +13,32 @@ const Certification = () => {
       <mesh ref={ref}>
         <Html scale={1} rotation={[Math.PI / 1, 0, 3.1]} transform occlude>
           <div className="the-neon-sign">
-            <h3 className="headTitle"> CERTIFICATION 🏅</h3>
-            <br />
-            <br />
+            <h3 className="headTitle focuss"> CERTIFICATION 🏅</h3>
             {/* Saurabh Singh <span style={{ fontSize: '1.5em' }}>🥲 </span> */}
-            <h4> 🔰 Front-End Web Development with React </h4>
-            <p>4 WEEKS</p>
-            <br />
-            <p>
+            <h4 className="focuss">
+              {" "}
+              🔰 Front-End Web Development with React{" "}
+            </h4>
+            <p className="focuss">4 WEEKS</p>
+            <p className="focuss">
               {" "}
               The Hong Kong University of Science and Technology, Coursera.
             </p>
-            <br />
-            <h4>
+            <h4 className="focuss">
               {" "}
               🔰 Server-side Development with NodeJS, Express and MongoDB{" "}
             </h4>
-            <p>4 WEEKS</p>
-            <br />
-            <p>
+            <p className="focuss">4 WEEKS</p>
+            <p className="focuss">
               {" "}
               The Hong Kong University of Science and Technology, Coursera.
             </p>
-            <h4> 🔰 Front-End Web UI Frameworks and Tools: Bootstrap 4 </h4>
-            <p>4 WEEKS</p>
-            <br />
-            <p>
+            <h4 className="focuss">
+              {" "}
+              🔰 Front-End Web UI Frameworks and Tools: Bootstrap 4{" "}
+            </h4>
+            <p className="focuss">4 WEEKS</p>
+            <p className="focuss">
               {" "}
               The Hong Kong University of Science and Technology, Coursera.
             </p>{" "}
